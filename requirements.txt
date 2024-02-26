@@ -1,0 +1,6 @@
+ipykernel==6.29.2
+ipython==8.21.0
+jupyter_client==8.6.0
+jupyter_core==5.7.1
+numpy==1.26.4
+sympy==1.12
