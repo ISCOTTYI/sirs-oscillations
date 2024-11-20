@@ -58,3 +58,6 @@ function erlang_superpos_kernel_jacobian(
     jac[2, 1] = ρ
     return jac
 end
+
+# # FP for system with c(m) = m <= N_mid ? k₁ : k₂
+# general_two_step_kernel_fp(β, ρ, T, N, N_mid, k₁, k₂) = N * (β - ρ) / (β * (N * T * k₂ * ρ + N + N_mid * T * k₁ * ρ - N_mid * T * k₂ * ρ))

@@ -1,3 +1,5 @@
 .DS_Store
 /venv
 /img
+temp*
+SIRS_discrete.py

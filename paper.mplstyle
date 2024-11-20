@@ -11,7 +11,8 @@ axes.prop_cycle : cycler('color', ['0C5DA5', 'FF2C00', '00B945', 'FF9500', '845B
 #     figsize = (2*axes_width + wspace*axes_width, axes_height)
 # With defaults:
 #     figsize = (7.2, 3.2)
-figure.figsize : 3.2, 3.2
+# srcartcl textwidth is 6.2 inches
+figure.figsize : 3.1, 3.1
 figure.subplot.wspace : 0.25
 
 # Set x axis
@@ -42,7 +43,7 @@ patch.linewidth : 1.5
 legend.frameon : False
 
 # MESSES WITH SIZES: Always save as 'tight'
-# savefig.bbox : tight
+savefig.bbox : tight
 # savefig.pad_inches : 0.05
 savefig.dpi : 100
 
